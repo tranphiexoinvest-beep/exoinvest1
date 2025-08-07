@@ -3,8 +3,9 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
-      links: [
+      text: 'Trang chủ',
+      href: getPermalink('/pages/index'),
+      /*links: [
         {
           text: 'SaaS',
           href: getPermalink('/homes/saas'),
@@ -21,10 +22,10 @@ export const headerData = {
           text: 'Personal',
           href: getPermalink('/homes/personal'),
         },
-      ],
+      ],*/
     },
     {
-      text: 'Pages',
+      text: 'Sản Phẩm',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -57,7 +58,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Đối tác',
       links: [
         {
           text: 'Lead Generation',
@@ -86,7 +87,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Bài viết',
       links: [
         {
           text: 'Blog List',
@@ -111,7 +112,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
+      text: 'Hướng dẫn',
       href: '#',
     },
   ],
